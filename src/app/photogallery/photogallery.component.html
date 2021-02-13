@@ -1,0 +1,43 @@
+<h1 style="text-align: center; color: white">
+  
+     <marquee behavior="alternate"> Welcome To क्षत्रिय महासभा संपूर्ण भारत. </marquee>
+  
+</h1>
+<!-- <div *ngFor="let item of photo?.items">
+  
+      <img [src]="item.media.m" [alt]="item.title">
+  
+  </div> -->
+  <div class="card-columns">
+    
+        <div class="card" *ngFor="let item of photo?.items">
+    
+          <img class="card-img-top" [src]="item.media.m" [alt]="item.title" />
+    
+          <div class="card-body">
+    
+            <h5 class="card-title">{{ item.title }}</h5>
+    
+            <p class="card-text">
+    
+              Uploaded by {{ item.author_id }} on
+    
+              {{ item.published | date: "medium" }}
+    
+            </p>
+    
+            <p class="card-text">{{ item.title }}</p>
+    
+            <hr>
+    
+            <p class="card-text">
+    
+              <small class="text-muted">{{ item.tags }}</small>
+    
+            </p>
+    
+          </div>
+  
+        </div>
+  
+      </div>

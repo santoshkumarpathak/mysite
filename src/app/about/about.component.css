@@ -1,0 +1,24 @@
+.container img{
+    
+    /* margin-top: 2%;
+    margin-bottom: 2%; */
+    display: block;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+    /* max-width: 700px;
+    width:90%;
+    margin:0 auto;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:#ffffff;
+    padding:40px;
+    border-radius:4px;
+     color:#505e6c; 
+    box-shadow:1px 1px 5px rgba(0,0,0,0.1); */
+}
+
+
+

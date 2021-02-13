@@ -1,0 +1,35 @@
+
+
+  <div class="contact-clean pt-3">
+       <form #contact="ngForm" (ngSubmit)="contactuser(contact)">
+    <!-- <form method="post"> -->
+        <h2 class="text-center">Contact us</h2>
+       <div class="cont"> 
+           <div class="card">
+        <!-- <div class="card" style="width: 18rem;"> -->
+            <div class="card-body">
+              <h5 class="card-title">क्षत्रिय महासभा संपूर्ण भारत :- राष्ट्रीय अध्यक्ष</h5>
+              <h6 class="card-subtitle mb-2 text-muted">नाम - ठाकुर जितेंद्र सिंह</h6>
+              <p class="card-title">Mobile:- 8173046922</p>
+              <a href="#" class="card-link">Facebook</a>
+              <!-- <a href="#" class="card-link">Another link</a> -->
+            </div>
+             </div>
+            <div class="card">
+            <!-- <div class="card" style="width: 18rem;"> -->
+                <div class="card-body">
+                  <h5 class="card-title">राष्ट्रीय महासचिव युवा एवं आईटी सेल प्रभारी</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">नाम - सत्यवीर सिंह ( बागी ) </h6>
+                  <p class="card-title">Mobile:- 7755077745</p>
+                  <a href="#" class="card-link">Facebook</a>
+                  <a href="#" class="card-link">Website</a>
+                </div>
+              </div>
+       </div>
+        <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" ngModel required></div>
+        <div class="form-group"><input class="form-control" type="tel" pattern="[0-9] {10}" name="Phone" placeholder="phone-number" ngModel required></div>
+        <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email" ngModel required><small class="form-text text-danger">Please enter a correct email address.</small></div>
+        <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Message" ngModel required></textarea></div>
+        <div class="form-group"><button class="btn btn-primary" type="submit" value="send">send </button></div>
+    </form>
+</div>

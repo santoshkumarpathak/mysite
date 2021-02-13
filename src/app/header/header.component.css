@@ -1,0 +1,16 @@
+
+
+.headers{
+
+    margin: 0 0 auto 400px; 
+    /* padding-right: 10px ; */
+       
+}
+h1{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.title img{
+    border-radius: 5px ;
+}
