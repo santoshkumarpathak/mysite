@@ -5,6 +5,8 @@ import {ContactusComponent} from './contactus/contactus.component';
 import {HowtoapplyComponent} from './howtoapply/howtoapply.component';
 import {PhotogalleryComponent} from './photogallery/photogallery.component';
 import {HomeComponent} from './home/home.component'
+import { CommiteComponent } from './commite/commite.component';
+import { LoginComponent } from './login/login.component';
 const routes: Routes = [
   {
     path:"home", component:HomeComponent
@@ -20,6 +22,14 @@ const routes: Routes = [
   },
   {
     path: 'photogallery', component:PhotogalleryComponent
+
+  },
+  {
+    path: 'commite', component:CommiteComponent
+
+  },
+  {
+    path: 'login', component:LoginComponent
 
   }
 ];

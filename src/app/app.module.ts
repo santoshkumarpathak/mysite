@@ -15,6 +15,8 @@ import {Photoservice} from './photoservice.service';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
+import { CommiteComponent } from './commite/commite.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,10 @@ import { FooterComponent } from './footer/footer.component';
     HomeComponent,
   
     FooterComponent,
+  
+    CommiteComponent,
+  
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
