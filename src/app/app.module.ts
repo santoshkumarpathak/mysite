@@ -17,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './footer/footer.component';
 import { CommiteComponent } from './commite/commite.component';
 import { LoginComponent } from './login/login.component';
-
+import { EventComponent } from './event/event.component';
+import { YouTubePlayerModule } from '@angular/youtube-player'
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,13 +42,16 @@ import { LoginComponent } from './login/login.component';
     CommiteComponent,
   
     LoginComponent,
+  
+    EventComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    YouTubePlayerModule
 
     
     

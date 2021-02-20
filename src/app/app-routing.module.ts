@@ -7,6 +7,7 @@ import {PhotogalleryComponent} from './photogallery/photogallery.component';
 import {HomeComponent} from './home/home.component'
 import { CommiteComponent } from './commite/commite.component';
 import { LoginComponent } from './login/login.component';
+import {EventComponent} from './event/event.component';
 const routes: Routes = [
   {
     path:"home", component:HomeComponent
@@ -30,6 +31,10 @@ const routes: Routes = [
   },
   {
     path: 'login', component:LoginComponent
+
+  },
+  {
+    path: 'event', component:EventComponent
 
   }
 ];
