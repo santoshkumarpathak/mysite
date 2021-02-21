@@ -18,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
 import { CommiteComponent } from './commite/commite.component';
 import { LoginComponent } from './login/login.component';
 import { EventComponent } from './event/event.component';
-import { YouTubePlayerModule } from '@angular/youtube-player'
+import { YouTubePlayerModule } from '@angular/youtube-player';
+import { DownloadComponent } from './download/download.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,6 +45,8 @@ import { YouTubePlayerModule } from '@angular/youtube-player'
     LoginComponent,
   
     EventComponent,
+  
+    DownloadComponent,
   ],
   imports: [
     BrowserModule,

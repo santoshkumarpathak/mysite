@@ -8,6 +8,7 @@ import {HomeComponent} from './home/home.component'
 import { CommiteComponent } from './commite/commite.component';
 import { LoginComponent } from './login/login.component';
 import {EventComponent} from './event/event.component';
+import { DownloadComponent } from './download/download.component';
 const routes: Routes = [
   {
     path:"home", component:HomeComponent
@@ -35,6 +36,10 @@ const routes: Routes = [
   },
   {
     path: 'event', component:EventComponent
+
+  },
+  {
+    path: 'download', component:DownloadComponent
 
   }
 ];
